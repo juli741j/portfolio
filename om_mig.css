@@ -1,0 +1,247 @@
+img {
+    width: 100%;
+    display: block;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a29;
+    background-image: url(billeder/snake.svg);
+}
+
+header {
+    height: 0;
+}
+
+
+
+/*            <!--   Menu og Dropdown->*/
+
+.navn {
+    margin-left: 34vw;
+    top: 4vw;
+    font-size: 2vw;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    color: white;
+    position: fixed;
+    z-index: 3;
+
+}
+
+.menu .content {
+    display: block;
+    top: -13vw;
+    position: relative;
+    z-index: 4;
+    left: -2vw;
+
+}
+
+.menu .content a {
+    display: flex;
+    color: white;
+    font-size: 2vw;
+    line-height: 3.5vw;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    overflow: hidden;
+    /*    outline: solid 2px;*/
+    width: 16vw;
+    padding: 1vw;
+}
+
+.menu .content a:hover {
+    background-color: #dbdbc8;
+}
+
+
+.dropdown {
+    height: 6vw;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    padding: 1vw;
+    left: 18vw;
+    top: -10vw;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#menuknap {
+    position: fixed;
+    top: 5vw;
+    left: 5vw;
+    font-size: 5vw;
+    color: white;
+    padding: 1px;
+    cursor: pointer;
+    float: left;
+}
+
+
+#menu1 {
+    transition: transform .3s;
+    transform-origin: top left;
+    position: fixed;
+    top: 23.2vw;
+    left: 11vw;
+    display: inline-block;
+    z-index: 20;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+
+}
+
+/*Images */
+
+.portrait {
+    width: 80vw;
+    position: relative;
+    margin-left: 8vw;
+    margin-top: 21vw;
+
+}
+
+/*Text */
+
+
+h2 {
+    color: black;
+    text-align: center;
+
+}
+
+.textbox p {
+    color: black;
+    margin: 4vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.textbox {
+    background-color: #b9b5b5;
+    border-radius: 25px;
+    margin: 9vw;
+    padding: 1vw;
+    top: -4vw;
+    position: relative;
+
+}
+
+/*web */
+@media (min-width: 600px) {
+
+    /*            <!--   Menu og Dropdown over 600px->*/
+
+
+
+    /*navn */
+    .navn {
+        margin-left: 43vw;
+        margin-top: -3vw;
+        font-size: 1vw;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 800;
+        color: #ce2828;
+        position: relative;
+
+    }
+
+
+    .menu .content {
+        display: flex;
+        position: relative;
+        margin-left: 26vw;
+        top: -17vw;
+
+    }
+
+    .menu .content a {
+        color: white;
+        font-size: 1.5vw;
+        line-height: 1;
+        padding-top: 0.5vw;
+        width: 8vw;
+        margin-left: 1vw;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 500;
+        height: 2vw;
+
+
+    }
+
+    .dropdown-content {
+        top: -0.2vw;
+        left: 0vw;
+        padding: 0vw;
+        width: 11vw;
+
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu1.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu1 li {
+        display: inline-block;
+    }
+
+    #content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portrait {
+        width: 43vw;
+        position: relative;
+        margin-left: 7vw;
+        margin-top: 26vw;
+    }
+
+    .textbox {
+        border-radius: 31px;
+        margin: 3vw;
+        padding: 2vw;
+        height: 44vw;
+        top: 30vw;
+        position: relative;
+        top: 25vw;
+    }
+
+    .textbox p {
+        font-size: 2vw;
+    }
+
+}

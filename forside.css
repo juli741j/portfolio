@@ -7,9 +7,10 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-color: #e6e3d7;
-    background-image: ;
+    background-color: #2a2a29;
+    background-image: url(billeder/snake.svg);
 }
+
 
 header {
     height: 0;
@@ -25,7 +26,7 @@ header {
     font-size: 2vw;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 800;
-    color: #f7b131;
+    color: white;
     position: fixed;
     z-index: 3;
 
@@ -42,7 +43,7 @@ header {
 
 .menu .content a {
     display: flex;
-    color: black;
+    color: white;
     font-size: 2vw;
     line-height: 3.5vw;
     text-decoration: none;
@@ -68,12 +69,9 @@ header {
     position: relative;
     padding: 1vw;
     left: 18vw;
-    top: -12vw;
-}
-
-
-.dropdown-content a:hover {
-    background-color: #ddd;
+    top: -10vw;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -81,12 +79,13 @@ header {
 }
 
 
+
 #menuknap {
     position: fixed;
     top: 5vw;
     left: 5vw;
     font-size: 5vw;
-    color: orange;
+    color: white;
     padding: 1px;
     cursor: pointer;
     float: left;
@@ -96,10 +95,11 @@ header {
 #menu1 {
     transition: transform .3s;
     transform-origin: top left;
-    position: absolute;
-    top: 22.2vw;
+    position: fixed;
+    top: 23.2vw;
     left: 11vw;
     display: inline-block;
+    z-index: 20;
 }
 
 .hidden {
@@ -108,32 +108,50 @@ header {
 
 }
 
-
 /*billeder */
+
+.images {
+    margin-top: 14vw;
+}
+
 .image1 {
     position: relative;
-    left: ;
-    top: 13vw;
-    width: 71vw;
-    margin: 13vw;
-    z-index: 6;
+    top: 18vw;
+    width: 100%;
+
+}
+
+.text {
+    position: relative;
+    right: 47vw;
+    bottom: 53vw;
+    font-size: 9vw;
+    width: 80%;
+    z-index: 10;
+    color: #c9b497;
+    writing-mode: vertical-rl;
 }
 
 .image2 {
     position: relative;
-    top: 13vw;
-    width: 71vw;
-    margin: 13vw;
+    top: 36vw;
+    width: 100%;
 
 }
 
 .image3 {
     position: relative;
-    top: 13vw;
-    width: 71vw;
-    margin: 13vw;
+    top: 41vw;
+    width: 100%;
 }
 
+.image4 {
+    position: relative;
+    top: 46vw;
+    width: 100%;
+}
+
+/*
 .paperimage {
     display: none;
 }
@@ -148,6 +166,7 @@ header {
     display: none;
 
 }
+*/
 
 /*animation */
 .fade {
@@ -220,7 +239,7 @@ header {
         font-size: 1vw;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 800;
-        color: #f7b131;
+        color: #ce2828;
         position: relative;
 
     }
@@ -235,7 +254,7 @@ header {
     }
 
     .menu .content a {
-        color: black;
+        color: white;
         font-size: 1.5vw;
         line-height: 1;
         padding-top: 0.5vw;
@@ -252,8 +271,16 @@ header {
         top: -0.2vw;
         left: 0vw;
         padding: 0vw;
+        width: 11vw;
 
     }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+
 
     #menuknap {
         display: none;
@@ -270,22 +297,35 @@ header {
 
     /*------bileder-----*/
 
-
+    .images {
+        display: flex;
+    }
 
     .image1 {
         position: relative;
-        left: 52vw;
-        top: 25vw;
-        width: 18vw;
+        top: 22vw;
+        width: 184vw;
         z-index: 10;
     }
 
+
+    .text {
+        position: relative;
+        bottom: 66vw;
+        font-size: 8vw;
+        width: 82%;
+        z-index: 10;
+        left: 14vw;
+        writing-mode: horizontal-tb;
+        color: #ce2828;
+    }
+
+
     .image2 {
         position: relative;
-        left: -1vw;
-        top: -13vw;
-        width: 35vw;
-        z-index: 5;
+        top: 47vw;
+        width: 197vw;
+        left: -13vw;
     }
 
     .image3 {
@@ -297,10 +337,12 @@ header {
     }
 
 
+
     .line {
         display: none;
     }
 
+    /*
     .splash {
         display: block;
         position: relative;
@@ -309,6 +351,7 @@ header {
         width: 100%;
 
     }
+*/
 
     .skrift {
         font-size: 17.5vw;
@@ -317,5 +360,13 @@ header {
         bottom: 184vw;
         text-align: center;
         opacity: 30%;
+    }
+
+    .baggrundsbillede {
+        position: relative;
+        height: 100%;
+        top: -46vw;
+        width: 100%;
+        z-index: 10;
     }
 }
