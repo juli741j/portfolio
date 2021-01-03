@@ -17,6 +17,7 @@ header {
 
 
 
+
 /*            <!--   Menu og Dropdown->*/
 
 .navn {
@@ -26,7 +27,7 @@ header {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 800;
     color: white;
-    position: fixed;
+    position: absolute;
     z-index: 3;
 
 }
@@ -85,7 +86,7 @@ header {
 
 
 #menuknap {
-    position: fixed;
+    position: absolute;
     top: 5vw;
     left: 5vw;
     font-size: 5vw;
@@ -99,7 +100,7 @@ header {
 #menu1 {
     transition: transform .3s;
     transform-origin: top left;
-    position: fixed;
+    position: absolute;
     top: 23.2vw;
     left: 11vw;
     display: inline-block;
@@ -125,21 +126,27 @@ header {
 /*Text */
 
 
-h2 {
-    color: black;
+.text h2 {
+    color: #db3b3b;
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    position: relative;
+    top: 11vw;
+    font-size: 8vw;
 
 }
 
 .textbox p {
-    color: black;
+    color: white;
     margin: 4vw;
     text-align: center;
     font-size: 3vw;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 100;
 }
 
 .textbox {
-    background-color: #b9b5b5;
+    background-color: #434340;
     border-radius: 25px;
     margin: 9vw;
     padding: 1vw;

@@ -17,6 +17,7 @@ header {
 
 
 
+
 /*            <!--   Menu og Dropdown->*/
 
 .navn {
@@ -26,7 +27,7 @@ header {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 800;
     color: white;
-    position: fixed;
+    position: absolute;
     z-index: 3;
 
 }
@@ -85,7 +86,7 @@ header {
 
 
 #menuknap {
-    position: fixed;
+    position: absolute;
     top: 5vw;
     left: 5vw;
     font-size: 5vw;
@@ -99,7 +100,7 @@ header {
 #menu1 {
     transition: transform .3s;
     transform-origin: top left;
-    position: fixed;
+    position: absolute;
     top: 23.2vw;
     left: 11vw;
     display: inline-block;
@@ -127,7 +128,7 @@ header {
     color: #db3b3b;
     font-size: 9vw;
     width: 20vw;
-    height: 9vw;
+    height: 12vw;
     padding: 3vw;
     text-decoration: none;
     position: relative;
@@ -135,6 +136,9 @@ header {
     bottom: 26vw;
     display: block;
     border-radius: 19px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 1000;
+    text-align: center;
 
 }
 
@@ -152,15 +156,18 @@ header {
     background-color: #e6e3d7;
     color: #db3b3b;
     font-size: 9vw;
-    width: 14vw;
-    height: 9vw;
+    width: 20vw;
+    height: 12vw;
     padding: 3vw;
     text-decoration: none;
     position: relative;
-    left: 29vw;
-    bottom: 24vw;
+    left: 24vw;
+    bottom: 26vw;
     display: block;
     border-radius: 19px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 1000;
+    text-align: center;
 }
 
 
@@ -180,15 +187,18 @@ header {
     background-color: #e6e3d7;
     color: #db3b3b;
     font-size: 9vw;
-    width: 51vw;
-    height: 9vw;
+    width: 28vw;
+    height: 12vw;
     padding: 3vw;
     text-decoration: none;
     position: relative;
-    left: 9vw;
+    left: 21vw;
     bottom: 26vw;
     display: block;
     border-radius: 19px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 1000;
+    text-align: center;
 }
 
 
@@ -207,15 +217,18 @@ header {
     background-color: #e6e3d7;
     color: #db3b3b;
     font-size: 9vw;
-    width: 41vw;
-    height: 9vw;
+    width: 23vw;
+    height: 12vw;
     padding: 3vw;
     text-decoration: none;
     position: relative;
-    left: 14vw;
+    left: 24vw;
     bottom: 26vw;
     display: block;
     border-radius: 19px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 1000;
+    text-align: center;
 }
 
 /*animation */
