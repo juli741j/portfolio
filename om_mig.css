@@ -8,19 +8,27 @@ body {
     margin: 0;
     padding: 0;
     background-color: #2a2a29;
-    background-image: url(billeder/snake.svg);
 }
 
 header {
     height: 0;
 }
 
+#baggrund {
+    background-image: url(billeder/);
+    width: 100%;
+    height: 104vw;
+    background-size: cover;
+    background-position: 32%;
+    max-width: none;
+    background-repeat: no-repeat;
+}
 
 
 
 /*            <!--   Menu og Dropdown->*/
 
-.navn {
+.navn a {
     margin-left: 34vw;
     top: 4vw;
     font-size: 2vw;
@@ -29,6 +37,7 @@ header {
     color: white;
     position: absolute;
     z-index: 3;
+    text-decoration: none;
 
 }
 
@@ -49,7 +58,6 @@ header {
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     overflow: hidden;
-    /*    outline: solid 2px;*/
     width: 16vw;
     padding: 1vw;
 }
@@ -163,7 +171,7 @@ header {
 
 
     /*navn */
-    .navn {
+    .navn a {
         margin-left: 43vw;
         margin-top: -3vw;
         font-size: 1vw;
@@ -228,23 +236,24 @@ header {
     #content {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        height: 104vw;
     }
 
     .portrait {
-        width: 43vw;
+        width: 39vw;
         position: relative;
-        margin-left: 7vw;
-        margin-top: 26vw;
+        margin-left: -6vw;
+        margin-top: 29vw;
     }
 
     .textbox {
         border-radius: 31px;
-        margin: 3vw;
-        padding: 2vw;
+        margin: 7vw;
+        padding: 1vw;
         height: 44vw;
-        top: 30vw;
         position: relative;
-        top: 25vw;
+        top: -54vw;
+        width: 43vw;
     }
 
     .textbox p {

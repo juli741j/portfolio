@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #2a2a29;
-    /*    background-image: url(billeder/snake.svg);*/
+    background-image: url(billeder/greensplash.svg);
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 
 /*            <!--   Menu og Dropdown->*/
 
-.navn {
+.navn a {
     margin-left: 34vw;
     top: 4vw;
     font-size: 2vw;
@@ -29,6 +29,7 @@ header {
     color: white;
     position: absolute;
     z-index: 3;
+    text-decoration: none;
 
 }
 
@@ -49,7 +50,6 @@ header {
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     overflow: hidden;
-    /*    outline: solid 2px;*/
     width: 16vw;
     padding: 1vw;
 }
@@ -137,7 +137,6 @@ header {
     display: block;
     border-radius: 19px;
     font-family: 'Teko', sans-serif;
-    font-weight: 1000;
     text-align: center;
 
 }
@@ -166,7 +165,6 @@ header {
     display: block;
     border-radius: 19px;
     font-family: 'Teko', sans-serif;
-    font-weight: 1000;
     text-align: center;
 }
 
@@ -197,7 +195,6 @@ header {
     display: block;
     border-radius: 19px;
     font-family: 'Teko', sans-serif;
-    font-weight: 1000;
     text-align: center;
 }
 
@@ -227,7 +224,6 @@ header {
     display: block;
     border-radius: 19px;
     font-family: 'Teko', sans-serif;
-    font-weight: 1000;
     text-align: center;
 }
 
@@ -490,9 +486,8 @@ header {
     /*            <!--   Menu og Dropdown over 600px->*/
 
 
-
     /*navn */
-    .navn {
+    .navn a {
         margin-left: 43vw;
         margin-top: -3vw;
         font-size: 1vw;

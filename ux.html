@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web</title>
     <link rel="stylesheet" href="ux.css">
+    <link rel="shortcut icon" type="image/svg" href="billeder/favicon.svg">
+    <meta name="robots" content="noindex" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
@@ -18,11 +20,13 @@
 
 </head>
 
-<header class="navn">
-    <p>JULIE MATHILDE EGGERTSEN</p>
-</header>
+
 
 <body>
+
+    <header class="navn">
+        <a href="forside.html">JULIE MATHILDE EGGERTSEN</a>
+    </header>
 
 
     <section id="menubar">
@@ -57,30 +61,69 @@
             <p>I temaet 'Grundlæggende UX' har jeg arbejdet med research, analyse og indholdsproduktion. Jeg har udarbejdet en hifi prototype med brug af UI kits og overgange. Derudover har jeg lavet desk research, surveys og interviews, som har givet mig en indsigt i brugernes behov. Jeg har også beskrevet min idé til websitet ved at bestemme målgruppe samt researche hvilke problematikker der er ved e-handel, og fundet løsninger som kunne gøre handlen nemmere. Sidst har jeg præsenteret min endelige løsning og dokumenteret hele min proces, som er samlet i min pitch. </p>
         </div>
 
-        <div class="link1">
-            <a href="https://xd.adobe.com/view/9630dab0-2c2b-4503-b0c9-f55206780921-c363">SE OPGAVE: ENDELIG PROTOTYPE</a>
-        </div>
-        <div class="prototype">
-            <img src="ux/prototype.png" alt="prototype">
-        </div>
+        <section id="images">
+            <img class="mySlides" src="ux/Ellipse%201.png" alt="prototype">
+            <img class="mySlides" src="ux/responsiv2.png" alt="prototype">
+            <img class="mySlides" src="ux/responsiv3.png" alt="prototype">
+            <img class="mySlides" src="ux/responsiv4.png" alt="prototype">
+            <img class="mySlides" src="ux/responsiv5.png" alt="prototype">
+        </section>
 
+        <section class="prototype">
+            <div class="prototype_billede">
+                <img src="ux/prototype.svg" alt="prototypebillede" class="protoimg">
+                <div class="prototext">
+                    <a href="https://xd.adobe.com/view/9630dab0-2c2b-4503-b0c9-f55206780921-c363" class="ptext">ENDELIG PROTOTYPE</a>
+                </div>
+            </div>
+        </section>
 
-        <div class="link2">
-            <a href="dokumenter/03_01_05_ide_julieeggertsen.pdf">SE OPGAVE: IDÉ</a>
-        </div>
-        <div class="ide">
-            <img src="ux/ide.png" alt="ide">
-        </div>
+        <section class="ide">
+            <div class="ide_billede">
+                <img src="ux/ide.svg" alt="idebillede" class="ideimg">
+                <div class="idetext">
+                    <a href="ux/03_01_05_ide_julieeggertsen.pdf" class="itext">IDÈ</a>
+                </div>
+            </div>
+        </section>
 
-
-        <div class="link3">
-            <a href="ux/pitch.pptx">SE OPGAVE: PITCH</a>
-        </div>
-        <div class="pitch">
-            <div class="image1">
-                <img src="ux/pitch.png" alt="pitch">
+        <section class="pitch">
+            <div class="pitch_billede">
+                <img src="ux/pitch.svg" alt="pitchbillede" class="pitchimg">
+                <div class="pitchtext">
+                    <a href="ux/pitch.pptx" class="pitext">PITCH</a>
+                </div>
+            </div>
+        </section>
+        <!--
+        <div class="billeder">
+            <div class="prototype">
+                <div class="prototype_billede">
+                    <img src="ux/prototype.png" alt="prototypebillede" class="protoimg">
+                    <div class="prototext">
+                        <a href="https://xd.adobe.com/view/9630dab0-2c2b-4503-b0c9-f55206780921-c363" class="ptext">ENDELIG PROTOTYPE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ide">
+                <div class="ide_billede">
+                    <img src="ux/ide.png" alt="idebillede" class="ideimg">
+                    <div class="idetext">
+                        <a href="dokumenter/03_01_05_ide_julieeggertsen.pdf" class="itext">IDÈ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pitch">
+                <div class="pitch_billede">
+                    <img src="ux/pitch.png" alt="pitchbillede" class="pitchimg">
+                    <div class="pitchtext">
+                        <a href="ux/pitch.pptx" class="pitext">PITCH</a>
+                    </div>
+                </div>
             </div>
         </div>
+-->
+
     </section>
 
 
@@ -90,4 +133,4 @@
     <script src="forside.js"></script>
 </body>
 
-</html
+</html>

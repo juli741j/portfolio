@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>animation</title>
     <link rel="stylesheet" href="animation.css">
+    <link rel="shortcut icon" type="image/svg" href="billeder/favicon.svg">
+    <meta name="robots" content="noindex" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
@@ -19,13 +21,13 @@
 
 </head>
 
-<header class="navn">
-    <p>JULIE MATHILDE EGGERTSEN</p>
-</header>
+
 
 <body>
 
-
+    <header class="navn">
+        <a href="forside.html">JULIE MATHILDE EGGERTSEN</a>
+    </header>
     <section id="menubar">
 
         <nav>
@@ -57,19 +59,31 @@
         <div class="text">
             <p>I temaet 'Grundlæggende Animation' har jeg arbejdet med javascript til at udvikle et spil. Alle elementer i spillet er udarbejdet i Illustrator. Jeg har igennem processen dokumenteret udviklingen af spillets elementer, og forbedret dem undervejs. Jeg har taget inspiration fra stilarten flat design, ved blandt andet at bruge mange farver, og give figurerne et simpel udtryk. </p>
         </div>
-        <div class="link1">
-            <a href="http://julieeggertsen.dk/kea/04_animation/spil2/produktion/">SE OPGAVE: ASSETLISTE</a>
-        </div>
-        <div class="asset">
-            <img src="animation/asset.png" alt="asset">
-        </div>
+    </section>
 
+    <section id="images">
+        <img class="mySlides" src="animation/animation1.png" alt="animation">
+        <img class="mySlides" src="animation/animation2.png" alt="animation">
+        <img class="mySlides" src="animation/animation3.png" alt="animation">
+        <img class="mySlides" src="animation/animation4.png" alt="animation">
+        <img class="mySlides" src="animation/animation5.png" alt="animation">
+    </section>
 
-        <div class="link2">
-            <a href="http://julieeggertsen.dk/kea/04_animation/spil/index.html">SE OPGAVE: SPIL</a>
+    <section class="asset">
+        <div class="asset_billede">
+            <img src="animation/asset.svg" alt="assetbillede" class="assetimg">
+            <div class="assettext">
+                <a href="animation/04_05_01_animation_julie_eggertsen.pdf" class="atext">ASSETLISTE</a>
+            </div>
         </div>
-        <div class="spil">
-            <img src="animation/spil.png" alt="spil">
+    </section>
+
+    <section class="spil">
+        <div class="spil_billede">
+            <img src="animation/spil.svg" alt="spilbillede" class="spilimg">
+            <div class="spiltext">
+                <a href="http://julieeggertsen.dk/kea/04_animation/spil/index.html" class="stext">SPIL</a>
+            </div>
         </div>
     </section>
 
@@ -80,4 +94,4 @@
     <script src=" forside.js"></script>
 </body>
 
-</html
+</html>
