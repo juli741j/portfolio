@@ -363,7 +363,7 @@ header {
     .ptext {
         font-size: 2vw;
         padding: 0vw;
-        left: -39px;
+        left: -5vw;
         top: -18vw;
         width: 12vw;
         height: 3vw;
@@ -411,8 +411,8 @@ header {
 
     .itext {
         font-size: 3vw;
-        left: 8px;
-        top: -5vw;
+        left: 1vw;
+        top: -4vw;
         width: 5vw;
         height: 4vw;
     }
@@ -460,7 +460,7 @@ header {
     .pitext {
         font-size: 3vw;
         padding: 0vw;
-        left: 5px;
+        left: 1vw;
         top: -3vw;
         width: 10vw;
         height: 4vw;

@@ -337,7 +337,7 @@ header {
     .rtext {
         font-size: 2vw;
         padding: 0vw;
-        left: -39px;
+        left: -5vw;
         top: -16vw;
         width: 12vw;
         height: 3vw;
@@ -383,7 +383,7 @@ header {
 
     .ptext {
         font-size: 2vw;
-        left: 8px;
+        left: 1vw;
         top: -2vw;
         width: 9vw;
         height: 3vw;
